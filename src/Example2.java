@@ -1,5 +1,6 @@
 public class Example2 {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        int square = 5 * 5;
+        System.out.println(square);
     }
 }
