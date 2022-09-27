@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Example8 {
+public class Example9 {
     public static void main(String[] args) {
 
         int age = 0;
@@ -11,6 +11,8 @@ public class Example8 {
 
         if (age >= 18) {
             System.out.println("You have the legal age");
+        } else {
+            System.out.println("You are under legal age");
         }
     }
 }
