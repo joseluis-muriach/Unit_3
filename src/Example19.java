@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Example_19 {
+public class Example19 {
     public static void main(String[] args) {
 
         final double EQUAL_SIX_LESS_SIXTY = 0.95;
