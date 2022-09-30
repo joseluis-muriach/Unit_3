@@ -28,25 +28,5 @@ public class Example23 {
         String result = String.format("%.2f", averageGrade);
         System.out.println("-> Your average grade is: " + result);
         System.out.println("-> You have " + countTen + " grades excelents ('10')");
-
-        //Ahora lo hacemos solo con el WHILE y utilizaremos un boolean
-        boolean negativeNumber = false;
-        double number = 0;
-        sum = 0;
-        count = 0;
-
-        while (negativeNumber) {
-            number = value.nextDouble();
-            if (number >= 0) {
-                sum += number;
-                count++;
-            } else {
-                negativeNumber = true;
-            }
-        }
-        averageGrade = 0;
-        averageGrade = sum / count;
-        System.out.println("-> Your average grade is: " + result);
-        System.out.println("-> You have " + countTen + " grades excelents ('10')");
     }
 }
