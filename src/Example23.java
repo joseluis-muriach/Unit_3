@@ -24,6 +24,7 @@ public class Example23 {
             }
         } while (grades >= 0);
         averageGrade = sum / count;
+
         //Creo esta variable (result) para que el float unicamente ponga dos decimales
         //Extraido de: https://es.stackoverflow.com/questions/144301/mostrar-n%c3%bamero-con-dos-decimales
         String result = String.format("%.2f", averageGrade);
