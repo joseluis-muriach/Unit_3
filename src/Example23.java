@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Example23 {
@@ -26,7 +27,12 @@ public class Example23 {
         //Creo esta variable (result) para que el float unicamente ponga dos decimales
         //Extraido de: https://es.stackoverflow.com/questions/144301/mostrar-n%c3%bamero-con-dos-decimales
         String result = String.format("%.2f", averageGrade);
+        //Otra manera de hacerlo
+        DecimalFormat resultB = new DecimalFormat("#.000");
+
         System.out.println("-> Your average grade is: " + result);
         System.out.println("-> You have " + countTen + " grades excelents ('10')");
+        System.out.println();
+        System.out.println("-> Your average grade is: " + resultB.format(averageGrade));
     }
 }
